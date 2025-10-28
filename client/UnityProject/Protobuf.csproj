@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ff2811d7-7a8e-0aa7-82bf-e181bb69812d}</ProjectGuid>
+    <ProjectGuid>{ebd7e1e2-144a-4004-473d-016678d68f34}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Coffee.UIParticle</AssemblyName>
+    <AssemblyName>Protobuf</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,12 +25,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Coffee.UIParticle\</OutputPath>
+    <OutputPath>Temp\Bin\Debug\Protobuf\</OutputPath>
     <DefineConstants>UNITY_2022_3_62;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -45,14 +45,112 @@
     <Analyzer Include="D:\UnityEditor\2022.3.62f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\AnimatableProperty.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\UIParticle.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\UIParticleUpdater.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\UIParticleRenderer.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\UIParticleAttractor.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\ModifiedMaterial.cs" />
-    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\Utils.cs" />
-    <None Include="Assets\Plugins\Alurax\Scripts\ThirdParty\ParticleEffectForUGUI\Runtime\Coffee.UIParticle.asmdef" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\OriginalNameAttribute.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\IFieldAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ParsingPrimitivesWrappers.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\CodedOutputStream.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\IBufferMessage.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\FeatureSetDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\MethodDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\IDeepCloneable.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\DescriptorPool.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\JsonFormatter.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\TypeRegistry.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ExtensionValue.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\PropertyInfoExtensions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ByteStringAsync.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\IDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ParseContext.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\TimestampPartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\DynamicallyAccessedMembersAttribute.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ObjectIntPair.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ParsingPrimitivesMessages.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\FieldDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Any.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Extension.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\FieldMaskTree.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\ServiceDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\TimeExtensions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WritingPrimitivesMessages.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\SourceContext.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compiler\Plugin.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\DurationPartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\AnyPartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\UnsafeByteOperations.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Properties\AssemblyInfo.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\FieldAccessorBase.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ParsingPrimitives.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\DescriptorDeclaration.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\InvalidProtocolBufferException.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\DynamicallyAccessedMemberTypes.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\CodedOutputStream.ComputeSize.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\MessageDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\PackageDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\OneofDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\UnknownField.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Type.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\DescriptorBase.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\IMessage.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\DescriptorValidationException.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Api.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\ReflectionUtil.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WriterInternalState.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WriteContext.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\JsonParser.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ByteString.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\FileDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Duration.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Empty.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\OneofAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\UnconditionalSuppressMessageAttribute.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\FieldMask.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\RepeatedFieldAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\LimitedInputStream.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\Descriptor.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WriteBufferHelper.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\GeneratedClrTypeInfo.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Timestamp.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\JsonTokenizer.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\FrameworkPortability.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ExtensionRegistry.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\CodedInputStream.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\CustomOptions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\DescriptorUtil.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\EnumDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\MessageExtensions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WireFormat.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ByteArray.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\TypeExtensions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\ExtensionAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\SingleFieldAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Collections\RepeatedField.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\MapFieldAccessor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ProtoPreconditions.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\SegmentedBufferHelper.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\EnumValueDescriptor.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Collections\MapField.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\FieldMaskPartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\FieldCodec.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\MessageParser.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Struct.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ExtensionSet.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\InvalidJsonException.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\ExtensionCollection.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ICustomDiagnosticMessage.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\IExtendableMessage.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\JsonToken.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Reflection\FieldType.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WritingPrimitives.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\WrappersPartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\ParserInternalState.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\UnknownFieldSet.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Collections\Lists.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\Wrappers.pb.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Collections\ProtobufEqualityComparers.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\WellKnownTypes\ValuePartial.cs" />
+    <Compile Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Compatibility\RequiresUnreferencedCodeAttribute.cs" />
+    <None Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\obj\project.packagespec.json" />
+    <None Include="Assets\Plugins\Alurax\Scripts\ThirdParty\Google.Protobuf\Protobuf.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\UnityEditor\2022.3.62f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -309,40 +407,40 @@
       <HintPath>D:\UnityEditor\2022.3.62f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\log4netPlastic.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Assets\Plugins\ThirdParty\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Assets\Plugins\ThirdParty\Newtonsoft.Json\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\unityplastic.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.collab-proxy@2.10.0\Lib\Editor\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Assets\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Log">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Assets\Plugins\Alurax\Scripts\IO\Log\Log.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Assets\Plugins\Alurax\Scripts\IO\Log\Log.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\UnityEditor\2022.3.62f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -711,10 +809,10 @@
       <HintPath>D:\UnityEditor\2022.3.62f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\WorkSpace\Trunk\client\Template\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\WorkSpace\cl-master\client\Template\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
