@@ -1,0 +1,2 @@
+#1. 添加LoopRandomView
+#2. 去掉Demo目录的代码

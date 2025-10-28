@@ -1,0 +1,22 @@
+{
+    "name": "Alurax",
+    "rootNamespace": "Alurax",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:877d1b97177dddd46a444b85d24d0641",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:642a474b28112fd44b184daa35317268",
+        "GUID:74fa99c655908b84e8f72e15bb3715a0",
+        "GUID:5b0518e14b1cbe7448fc1d2320db4550",
+        "GUID:8b65d8710c3b04373a41cbf6b777ee65"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

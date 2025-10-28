@@ -1,0 +1,25 @@
+{
+  "name": "io.jahro.console",
+  "version": "2.2.2",
+  "displayName": "Jahro Console",
+  "description": "Jahro Console is a brand new plugin for Unity 3D. \nIt The Jahro strives to provide an amazing development experience by an opportunity to use the console for executing commands in a Unity Project directly or in a build of an app on a target device. \n\nSpecially designed for the mobile app debugging process, Jahro brings all its capabilities with the application version on a mobile device.\n\nUndemanding to resources and light as a feather.\n- Non-developers\\u2019 oriented UX and UI.\n- Flexibility of customization and effortless control.\n- Simple access to commands during runtime.\n- Easy parameters input for commands.\n\nPlease check UserGuide in documentation folder.\n\nVisit jahro.io to find more!\n\nCopyright \u00a9 2020 Jahro Console. All rights reserved.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+  },
+  "keywords": [
+    "Jahro",
+    "Console",
+    "Terminal",
+    "Jaro",
+    "Visual console",
+    "Visual terminal",
+    "Terminal"
+  ],
+  "author": {
+    "name": "Crysberry",
+    "email": "support@jahro.io",
+    "url": "https://www.jahro.io"
+  },
+  "type": "tool"
+}
